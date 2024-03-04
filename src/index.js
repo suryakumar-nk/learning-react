@@ -3,8 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
 // import { Card } from './component/card/Card';
-import { QrCode } from './component/QRcode/QrCode'
+// import { QrCode } from './component/QRcode/QrCode'
 import reportWebVitals from './reportWebVitals';
+import { ObjectSample } from './component/basicConcepts/ObjectSample';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,8 +13,9 @@ root.render(
     {/* 
       <App /> 
       <Card />
+      <QrCode />
     */}
-    <QrCode />
+    <ObjectSample />
 
   </React.StrictMode>
 );
