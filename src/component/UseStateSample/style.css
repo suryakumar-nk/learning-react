@@ -1,0 +1,22 @@
+table {
+    margin: 10px 10px;
+    border: 1px solid #423d3d;
+    border-collapse: collapse;
+}
+
+table td { 
+    border: 1px solid #423d3d;
+    padding: 5px 10px;
+}
+
+table td:first-child {
+    font-weight: 600;
+}
+
+form {
+    padding: 10px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
