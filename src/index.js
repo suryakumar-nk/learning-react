@@ -6,7 +6,8 @@ import './index.css';
 // import { QrCode } from './component/QRcode/QrCode'
 import reportWebVitals from './reportWebVitals';
 // import { ObjectSample } from './component/basicConcepts/ObjectSample';
-import { UserDetail } from './component/UseStateSample/UserDetail';
+// import { UserDetail } from './component/UseStateSample/UserDetail';
+import { AdviseApp } from './component/ApiIntegration/AdviseApp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,8 +17,9 @@ root.render(
       <Card />
       <QrCode />
       <ObjectSample />
+      <UserDetail />
     */}
-    <UserDetail />
+    <AdviseApp />
   </React.StrictMode>
 );
 
