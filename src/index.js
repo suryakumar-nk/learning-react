@@ -9,7 +9,8 @@ import reportWebVitals from './reportWebVitals';
 // import { UserDetail } from './component/UseStateSample/UserDetail';
 // import { AdviseApp } from './component/ApiIntegration/AdviseApp';
 // import { WeatherApp } from './component/weatherApp/WeatherApp';
-import { BMIcalculator } from './component/BMIcalculator/BMIcalculator';
+// import { BMIcalculator } from './component/BMIcalculator/BMIcalculator';
+import { Currency } from './component/CurrencyConvertor/Currency';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,8 +23,9 @@ root.render(
       <UserDetail />
       <AdviseApp />
       <WeatherApp />
+      <BMIcalculator />
     */}
-    <BMIcalculator />
+    <Currency />
   </React.StrictMode>
 );
 
