@@ -8,7 +8,8 @@ import reportWebVitals from './reportWebVitals';
 // import { ObjectSample } from './component/basicConcepts/ObjectSample';
 // import { UserDetail } from './component/UseStateSample/UserDetail';
 // import { AdviseApp } from './component/ApiIntegration/AdviseApp';
-import { WeatherApp } from './component/weatherApp/WeatherApp';
+// import { WeatherApp } from './component/weatherApp/WeatherApp';
+import { BMIcalculator } from './component/BMIcalculator/BMIcalculator';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,8 +21,9 @@ root.render(
       <ObjectSample />
       <UserDetail />
       <AdviseApp />
+      <WeatherApp />
     */}
-    <WeatherApp />
+    <BMIcalculator />
   </React.StrictMode>
 );
 
