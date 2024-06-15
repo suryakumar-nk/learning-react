@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Carbon_Storage">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/public/Carbon_Storage.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

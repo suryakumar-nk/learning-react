@@ -7,7 +7,8 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 // import { ObjectSample } from './component/basicConcepts/ObjectSample';
 // import { UserDetail } from './component/UseStateSample/UserDetail';
-import { AdviseApp } from './component/ApiIntegration/AdviseApp';
+// import { AdviseApp } from './component/ApiIntegration/AdviseApp';
+import { WeatherApp } from './component/weatherApp/WeatherApp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,8 +19,9 @@ root.render(
       <QrCode />
       <ObjectSample />
       <UserDetail />
+      <AdviseApp />
     */}
-    <AdviseApp />
+    <WeatherApp />
   </React.StrictMode>
 );
 

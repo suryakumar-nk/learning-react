@@ -1,0 +1,114 @@
+body {
+    background-color: rgb(81, 77, 88);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 320px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.input-container {
+    display: flex;
+    height: 20px;
+    border: 2px solid rgb(6, 199, 247);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.input-container input {
+    width: 100%;
+    border: none;
+    overflow: hidden;
+}
+
+.input-container input:focus {
+    border: none;
+    outline: none;
+}
+
+.weather {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.weather img {
+    width: 150px;
+    height: 150px;
+}
+
+.temperature, .city, .country {
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.city {
+    font-size: 4cap;
+    color: #ffbc00;
+}
+
+.cord {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.cord div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.cord div span {
+    font-size: 20px;
+}
+
+.cord div span:nth-child(2) {
+    font-size: 25px;
+    padding-top: 5px;
+    font-weight: 500;
+    color: #666;
+}
+
+.fotter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 185px;
+    margin-top: 50px;
+}
+
+.fotter img {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+
+.val {
+    font-size: 10px;
+    padding-top: 3px;
+}
+
+.humidity, .wind {
+    font-size: 16px;
+}
+
+.display p {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    padding-top: 20px;
+    color: #494747;
+}
